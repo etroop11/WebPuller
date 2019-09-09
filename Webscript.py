@@ -1,3 +1,10 @@
+"""
+****************
+This code is still a work in progress and much of it is still in testing phases
+****************
+"""
+
+
 import urllib.request as url
 import csv
 import numpy as np
@@ -205,6 +212,7 @@ game_storage_array = np.array(formatted_games)
 data_frame = pd.DataFrame(game_storage_array)
 print(data_frame)
 data_frame.to_csv("GameDatabase.csv")
+#This code is still a work in progress and much of it is still in testing phases
 
 
 
